@@ -8,12 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-service" />
         <module name="discovery-server" />
+        <module name="productaudit-service" />
         <module name="shipping-serivce" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-service" target="1.8" />
       <module name="discovery-server" target="1.8" />
+      <module name="productaudit-service" target="1.8" />
+      <module name="productQualification" target="1.6" />
       <module name="shipping" target="1.8" />
       <module name="shipping-serivce" target="1.8" />
     </bytecodeTargetLevel>

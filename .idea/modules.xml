@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery-server/discovery-server.iml" filepath="$PROJECT_DIR$/discovery-server/discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productaudit-service/productaudit-service.iml" filepath="$PROJECT_DIR$/productaudit-service/productaudit-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shipping-serivce/shipping-serivce.iml" filepath="$PROJECT_DIR$/shipping-serivce/shipping-serivce.iml" />
     </modules>
   </component>
