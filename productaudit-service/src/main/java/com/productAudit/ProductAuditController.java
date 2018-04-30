@@ -19,7 +19,9 @@ public class ProductAuditController {
     public String home() {
         return "<a href=\"/api/productsAudit\">API Audit Products</a>" +
                 "<br />" +
-                "<a href=\"/api/productsAudit/1\">API Audit Products With ID=1</a>";
+                "<a href=\"/api/productsAudit/1\">API Audit Products With ID=1</a>" +
+                "<br />" +
+                "<a href=\"/api/config\">API Config</a>";
     }
 
     @GetMapping("/api/productsAudit")

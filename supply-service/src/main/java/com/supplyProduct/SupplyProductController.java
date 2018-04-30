@@ -19,7 +19,9 @@ public class SupplyProductController {
     public String home(){
         return "<a href=\"/api/supply\">API Supply</a>" +
                 "<br />" +
-                "<a href=\"/api/supply/1\">API Supply Products With ID=1</a>";
+                "<a href=\"/api/supply/1\">API Supply Products With ID=1</a>"+
+                "<br />" +
+                "<a href=\"/api/config\">API Config</a>";
     }
 
     @GetMapping("/api/suppliedProducts")
