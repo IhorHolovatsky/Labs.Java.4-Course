@@ -169,5 +169,6 @@
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:2.0.0.RC1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.3" level="project" />
+    <orderEntry type="module" module-name="supply-service" />
   </component>
 </module>

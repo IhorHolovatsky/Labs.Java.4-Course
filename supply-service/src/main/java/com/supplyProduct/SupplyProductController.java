@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class SupplyProductController {
 
     private final SupplyProductService supplyService;
-
     @Autowired
     public SupplyProductController(SupplyProductService supplyService) {
         this.supplyService = supplyService;

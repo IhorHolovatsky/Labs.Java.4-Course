@@ -35,8 +35,8 @@ public class ProductAuditController {
     }
 
     @PostMapping(path = "/api/productsAudit", consumes = "application/json", produces = "application/json")
-    public String create(@RequestBody ProductModel model, @RequestBody ProductAuditModel audit) {
-        auditService.create(model, audit);
+    public String create(@RequestBody ProductAuditModel audit) {
+        auditService.create(audit);
         return "redirect:/api/productsAudit/" + audit.Product.Id;
     }
 

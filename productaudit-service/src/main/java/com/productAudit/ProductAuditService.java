@@ -35,10 +35,8 @@ public class ProductAuditService {
         return audits.get(Id);
     }
 
-    public static ProductAuditModel create(ProductModel productModel, ProductAuditModel auditModel) {
-        auditModel.SetProductAudit(productModel);
-
-        return audits.put(auditModel.Product.Id, auditModel);
+    public static ProductAuditModel create(ProductAuditModel auditModel) {
+             return audits.put(auditModel.Product.Id, auditModel);
     }
 
     public static ProductAuditModel delete(Integer Id) {

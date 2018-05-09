@@ -16,6 +16,7 @@ public class ProductAuditModel {
 
     public boolean IsCheckSuccess;
 
+    ProductAuditModel() {}
     ProductAuditModel(Integer Id, ProductModel Product, String OwnerName,
                       Sizes Size, AuditStatus AuditStatus, boolean IsCheckSuccess) {
         this.Id = Id;
